@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* color variables */
+:root {
+    --basecolor: #0099cc;
+    --darkbasecolor: #0084b0;
+    --slate: #64748b;
+}
+a{
+    color: red !important;
+}
