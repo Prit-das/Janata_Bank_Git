@@ -4,7 +4,7 @@
           <!-- Hamberger parent -->
           <div class="flex-1">
             <!-- Hamberger icon -->
-            <div class="block w-9 h-6 icon cursor-pointer z-20" id="hamberger-icon">
+            <div class="block w-9 h-6 icon cursor-pointer" id="hamberger-icon">
               <span class="bar1"></span>
               <span class="bar2"></span>
               <span class="bar3"></span>
@@ -106,9 +106,9 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3" id="accountChild">
-                <a href="#" class="font-semibold">Savings</a>
-                <a href="#" class="font-semibold">Current</a>
-                <a href="#" class="font-semibold">Deposits</a>              
+                <a href="#" class="mobLinks font-semibold">Savings</a>
+                <a href="#" class="mobLinks font-semibold">Current</a>
+                <a href="#" class="mobLinks font-semibold">Deposits</a>              
               </div>
             </div>
             <!-- Loan Section Child & Heading and Icon -->
@@ -120,8 +120,8 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3 hideSection" id="loanChild">
-                <a href="#" class="font-semibold">Personal Loan</a>
-                <a href="#" class="font-semibold">Business Loan</a>           
+                <a href="#" class="mobLinks font-semibold">Personal Loan</a>
+                <a href="#" class="mobLinks font-semibold">Business Loan</a>           
               </div>
             </div>
             <!-- Card Section Child & Heading and Icon -->
@@ -133,9 +133,9 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3 hideSection" id="cardChild">
-                <a href="#" class="font-semibold">Classic visa Debit Card</a>
-                <a href="#" class="font-semibold">Gold visa Debit Card</a>
-                <a href="#" class="font-semibold">Business visa Loan</a>
+                <a href="#" class="mobLinks font-semibold">Classic visa Debit Card</a>
+                <a href="#" class="mobLinks font-semibold">Gold visa Debit Card</a>
+                <a href="#" class="mobLinks font-semibold">Business visa Loan</a>
               </div>
             </div>
             <!-- Guarantee Section Child & Heading and Icon -->
@@ -147,8 +147,8 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3 hideSection" id="guaranteeChild">
-                <a href="#" class="font-semibold">Employee Guarantee</a>
-                <a href="#" class="font-semibold">Commercial Guarantee</a>
+                <a href="#" class="mobLinks font-semibold">Employee Guarantee</a>
+                <a href="#" class="mobLinks font-semibold">Commercial Guarantee</a>
               </div>
             </div>
             <!-- Services Section Child & Heading and Icon -->
@@ -160,8 +160,8 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3 hideSection" id="servicesChild">
-                <a href="#" class="font-semibold">WPS</a>
-                <a href="#" class="font-semibold">Remittance</a>
+                <a href="#" class="mobLinks font-semibold">WPS</a>
+                <a href="#" class="mobLinks font-semibold">Remittance</a>
               </div>
             </div>
             <!-- About us Section Child & Heading and Icon -->
@@ -173,15 +173,15 @@
               </div>
               <!-- Account section child -->
               <div class="max-h-96 flex flex-col gap-3 translate-y-0 duration-300 py-3 hideSection" id="aboutChild">
-                <a href="#" class="font-semibold">Corporate Governance</a>
-                <a href="#" class="font-semibold">Awards</a>
+                <a href="#" class="mobLinks font-semibold">Corporate Governance</a>
+                <a href="#" class="mobLinks font-semibold">Awards</a>
               </div>
             </div>
             <!-- Contact us Section Child & Heading and Icon -->
             <div class="w-full">
               <!-- Account section Heading and Icon -->
               <div class="flex justify-between items-center" id="aboutSection">
-                <a href="#" class="font-bold text-lg text-basecolor">Contact Us</a>
+                <a href="#" class="mobLinks font-bold text-lg text-basecolor">Contact Us</a>
               </div>
             </div>
           </div>

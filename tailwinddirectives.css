@@ -8,3 +8,45 @@
   --darkbasecolor: #0084b0;
   --slate: #64748b;
 }
+
+/* Mobile <a> styling */
+.mobLinks {
+  position: relative;
+  width: fit-content;
+  transform-origin: left;
+  color: var(--slate);
+  transition-duration: 150ms;
+}
+
+.mobLinks:hover {
+  color: var(--basecolor);
+}
+
+.mobLinks::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 0;
+  height: 4px;
+  background-color: var(--darkbasecolor);
+  transition: all 0.5s;
+}
+
+.mobLinks:hover::before{
+  width: 100%;
+  left: 0;
+}
+
+#mouseIcon{
+  animation: upDown 1s ease-in infinite;
+
+}
+@keyframes upDown {
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}

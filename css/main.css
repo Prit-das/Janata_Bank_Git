@@ -924,7 +924,7 @@ video {
 
 /* <a> tag styling starts */
 
-.deskLinks {
+.deskLinks{
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
