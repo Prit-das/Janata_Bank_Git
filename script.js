@@ -173,4 +173,33 @@ branchForMob.addEventListener('click', function (){
         ATMMobList.classList.add('hidden')
     }
 })
-// ------------------------------------------------------------------
+// -------------------------Swiper-JS----------------------------------------
+var swiper = new Swiper(".swiper", {
+    grabCursor: true,
+    noSwiping: true,
+    freeMode: false,
+    speed: 400,
+    mousewheel: {
+        invert: true,
+    },
+    scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true,
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        1280: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+    },
+});
