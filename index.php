@@ -26,13 +26,13 @@
           <!-- Heading -->
           <h4 class="font-bold text-center md:text-start text-4xl lg:text-6xl text-darkbasecolor font-poppins">Our Products</h4>
           <!-- Swiper container -->
-          <div class="slider-container">
+          <div class="slider-container relative pt-[50px]">
             <!-- Slider main container -->
             <div class="swiper flex justify-center lg:justify-start">
               <div class="swiper-wrapper flex justify-start items-center space-x-4 lg:space-x-0 mb-10">
                 <!-- Card 1 -->
                 <div class="swiper-slide">
-                  <div class="relative h-[28rem] w-82 lg:w-96 flex flex-col shadow-lg rounded-xl">
+                  <div class="relative h-[28rem] flex flex-col shadow-lg rounded-xl">
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-left">
                     </div>
@@ -49,7 +49,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="swiper-slide">
-                  <div class="relative h-[28rem] w-82 lg:w-96 flex flex-col shadow-lg rounded-xl">
+                  <div class="relative h-[28rem] flex flex-col shadow-lg rounded-xl">
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1726137569962-456daf4ec02f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-right">
                     </div>
@@ -66,7 +66,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="swiper-slide">
-                  <div class="relative h-[28rem] w-82 lg:w-96 flex flex-col shadow-lg rounded-xl">
+                  <div class="relative h-[28rem] flex flex-col shadow-lg rounded-xl">
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     </div>
@@ -82,7 +82,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="swiper-slide">
-                  <div class="relative h-[28rem] w-82 lg:w-96 flex flex-col shadow-lg rounded-xl">
+                  <div class="relative h-[28rem] flex flex-col shadow-lg rounded-xl">
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     </div>
@@ -98,7 +98,7 @@
                 </div>
                 <!-- Card 5 -->
                 <div class="swiper-slide">
-                  <div class="relative h-[28rem] w-82 lg:w-96 flex flex-col shadow-lg rounded-xl">
+                  <div class="relative h-[28rem] flex flex-col shadow-lg rounded-xl">
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1721378467004-eb44b57fa361?q=80&w=1997&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-right">
                     </div>
@@ -113,9 +113,12 @@
                   </div>
                 </div>
               </div>
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
+               <!-- Navigation Buttons -->
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Pagination Dots -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>

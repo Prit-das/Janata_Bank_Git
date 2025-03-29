@@ -96,3 +96,19 @@
   background-color: white;
   color: var(--darkbasecolor);
 }
+.swiper-button-next, .swiper-button-prev{
+  top: 0 !important;
+  background-color: var(--darkbasecolor) !important;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.swiper-button-prev{
+  left: initial;
+  right: 100px ;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 15px !important;
+  color: white;
+}

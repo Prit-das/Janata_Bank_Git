@@ -179,15 +179,16 @@ var swiper = new Swiper(".swiper", {
     noSwiping: true,
     freeMode: false,
     speed: 400,
-    mousewheel: {
-        invert: true,
-    },
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-    },
     slidesPerView: 1,
     spaceBetween: 10,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true, 
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,
@@ -199,7 +200,7 @@ var swiper = new Swiper(".swiper", {
         },
         1280: {
             slidesPerView: 3,
-            spaceBetween: 10,
+            spaceBetween: 20,
         },
     },
 });
