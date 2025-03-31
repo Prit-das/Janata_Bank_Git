@@ -50,14 +50,12 @@
     transform: translateY(100%);
   }
 }
-
 /* swipper */
 .swiper-scrollbar{
   --swiper-scrollbar-bottom: 0;
   --swiper-scrollbar-drag-bg-color: var(--basecolor);
   --swiper-scrollbar-size: 7px;
 }
-
 /* swiper cards */
 .cardsUpper{
   position: absolute;
@@ -65,14 +63,12 @@
   top: 0%;
   left: 0;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 50%);
-  /* border-radius: .75rem; */
 }
 .cardsUpper img{
   height: 100%;
   width: 100%;
   object-fit: cover;
   transform: translateY(-20%);
-  /* border-radius: .75rem; */
 }
 .cardsLower{
   position: absolute;
@@ -111,4 +107,8 @@
 .swiper-button-next:after, .swiper-button-prev:after{
   font-size: 15px !important;
   color: white;
+}
+/* Calculator */
+.glassmorphisum{
+  @apply bg-darkbasecolor/20 backdrop-blur-xl border border-white/20 rounded-xl shadow-2xl;
 }

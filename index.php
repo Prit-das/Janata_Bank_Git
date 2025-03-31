@@ -123,12 +123,32 @@
         </div>
       </section>
       <!-- Services -->
-      <section id="services" class="relative px-4">
-        <!-- Swiper & Text container -->
-        <div class="container mx-auto flex flex-col gap-12 lg:px-12 py-12">
+      <section id="services" class="relative font-poppins px-4">
+        <!-- Calculator & Text container -->
+        <div class="container mx-auto flex flex-col gap-12 lg:px-12 py-8">
           <!-- Heading -->
-          <h4 class="font-bold text-center md:text-start text-4xl lg:text-6xl text-darkbasecolor font-poppins">Remittance Calculator</h4>  
-        </div>      
+          <h4 class="font-bold text-center md:text-start text-4xl lg:text-6xl text-darkbasecolor">Remittance Calculator</h4>
+          <div class="glassmorphisum flex justify-center items-center px-4 py-8">
+            <!-- Left Section -->
+            <div class="md:w-1/2 font-poppins">
+              <h1 class="text-4xl lg:text-6xl font-extrabold">
+                <span class="text-white">Live currency</span>
+                <span class="text-white">exchange rates</span>
+              </h1>
+              <h2 class="text-4xl lg:text-6xl font-extrabold text-darkbasecolor mt-4">Calculator</h2>
+              <p class="max-w-lg text-gray-400 mt-8">Keep up with all your fiat foreign currencies in one place, updated regularly.</p>
+              <div class="flex space-x-8 mt-4">
+                  <div class="flex items-center space-x-2 text-gray-400">
+                      <i class="bi bi-lightning"></i>
+                      <span>Fast & easy transfers</span>
+                  </div>
+              </div>
+            </div>
+            <!-- Right section -->
+            <div class="md:w-1/2 font-poppins">
+              
+            </div>
+          </div>
       </section>
     </section>
   </body>
