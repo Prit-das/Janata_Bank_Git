@@ -36,7 +36,7 @@
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-left">
                     </div>
-                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-2">
+                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-6">
                       <h4 class="text-2xl font-semibold font-poppins text-slate-700">Accounts</h4>
                       <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et quia culpa ab in repellendus illo dolorem natus doloremque excepturi nulla.</p>
                       <div class="flex items-center" id="cardsbuttons">
@@ -53,7 +53,7 @@
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1726137569962-456daf4ec02f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-right">
                     </div>
-                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-2">
+                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-6">
                       <h4 class="text-2xl font-semibold font-poppins text-slate-700">Cards</h4>
                       <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et quia culpa ab in repellendus illo dolorem natus doloremque excepturi nulla.</p>
                       <div class="flex items-center" id="cardsbuttons">
@@ -70,7 +70,7 @@
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     </div>
-                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-2">
+                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-6">
                       <h4 class="text-2xl font-semibold font-poppins text-slate-700">Loans</h4>
                       <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et quia culpa ab in repellendus illo dolorem natus doloremque excepturi nulla.</p>
                       <div class="flex items-center" id="cardsbuttons">
@@ -86,7 +86,7 @@
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     </div>
-                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-2">
+                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-6">
                       <h4 class="text-2xl font-semibold font-poppins text-slate-700">Guarantees</h4>
                       <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et quia culpa ab in repellendus illo dolorem natus doloremque excepturi nulla.</p>
                       <div class="flex items-center" id="cardsbuttons">
@@ -102,7 +102,7 @@
                     <div class="cardsUpper rounded-xl">
                       <img src="https://images.unsplash.com/photo-1721378467004-eb44b57fa361?q=80&w=1997&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-right">
                     </div>
-                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-2">
+                    <div class="cardsLower flex flex-col justify-end items-start rounded-xl select-none gap-4 px-4 py-6">
                       <h4 class="text-2xl font-semibold font-poppins text-slate-700">Services</h4>
                       <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et quia culpa ab in repellendus illo dolorem natus doloremque excepturi nulla.</p>
                       <div class="flex items-center" id="cardsbuttons">
@@ -113,8 +113,8 @@
                   </div>
                 </div>
               </div>
-               <!-- Navigation Buttons -->
             </div>
+            <!-- Navigation Buttons -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
             <!-- Pagination Dots -->
@@ -124,21 +124,21 @@
       </section>
       <!-- Services -->
       <section id="services" class="relative font-poppins px-4">
-        <!-- Calculator & Text container -->
-        <div class="container mx-auto flex flex-col gap-12 lg:px-12 py-8">
+        <div class="container mx-auto px-12 py-4">
           <!-- Heading -->
-          <h4 class="font-bold text-center md:text-start text-4xl lg:text-6xl text-darkbasecolor">Remittance Calculator</h4>
-          <div class="glassmorphisum flex justify-center items-center px-4 py-8">
+          <h4 class="hidden lg:block font-bold text-center md:text-start text-4xl lg:text-6xl text-darkbasecolor">Remittance Calculator</h4>
+          <!-- Calculator & Text container -->
+          <div class="flex flex-row justify-center items-center gap-8 py-16" id="calcContainer">
             <!-- Left Section -->
             <div class="md:w-1/2 font-poppins">
               <h1 class="text-4xl lg:text-6xl font-extrabold">
-                <span class="text-white">Live currency</span>
-                <span class="text-white">exchange rates</span>
+                <span class="text-slate">Live currency</span>
+                <span class="text-slate">exchange rates</span>
               </h1>
               <h2 class="text-4xl lg:text-6xl font-extrabold text-darkbasecolor mt-4">Calculator</h2>
-              <p class="max-w-lg text-gray-400 mt-8">Keep up with all your fiat foreign currencies in one place, updated regularly.</p>
+              <p class="max-w-lg text-slate mt-8">Keep up with all your fiat foreign currencies in one place, updated regularly.</p>
               <div class="flex space-x-8 mt-4">
-                  <div class="flex items-center space-x-2 text-gray-400">
+                  <div class="flex items-center space-x-2 text-slate">
                       <i class="bi bi-lightning"></i>
                       <span>Fast & easy transfers</span>
                   </div>
@@ -146,10 +146,34 @@
             </div>
             <!-- Right section -->
             <div class="md:w-1/2 font-poppins">
-              
+                <!-- Calculator -->
+                <div class="glassmorphisum flex flex-col items-center rounded-lg px-24 py-12">
+                  <!-- Group one -->
+                  <label class="text-slate self-start">Your Currency</label>
+                  <div class="w-full flex justify-between items-center gap-2 border-2 border-darkbasecolor shadow-lg rounded-lg mb-6 px-2">
+                    <input type="text" placeholder="AED 100" class="w-1/2 bg-transparent text-darkbasecolor outline-none font-bold py-3">
+                    <div class="flex items-center gap-2 select-none">
+                      <img src="https://flagcdn.com/w320/ae.png" class="h-8 w-8 rounded-full">
+                      <p class="text-slate font-extrabold">UAE</p>
+                    </div>
+                  </div>
+                  <!-- Group two -->
+                  <a class="convertBtn shadow-lg mb-6" id="converter"><i class="bi bi-arrow-down-up"></i>Convert</a>
+                  <!-- Group three -->
+                  <label class="text-slate self-start">Converted in this Currency</label>
+                  <div class="w-full flex justify-between items-center gap-2 border-2 border-darkbasecolor shadow-lg rounded-lg px-2">
+                    <input type="text" placeholder="Taka 3300" class="w-1/2 bg-transparent text-darkbasecolor outline-none font-bold py-3">
+                    <div class="flex items-center select-none gap-2">
+                      <img src="https://flagcdn.com/w320/bd.png" class="h-8 w-8 object-cover rounded-full">
+                      <p class="text-slate font-extrabold">Bangladesh</p>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
       </section>
+      <!-- Footer -->
+      <?php include './component/footer.php'?>
     </section>
   </body>
 </html>

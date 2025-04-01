@@ -112,3 +112,59 @@
 .glassmorphisum{
   @apply bg-darkbasecolor/20 backdrop-blur-xl border border-white/20 rounded-xl shadow-2xl;
 }
+.convertBtn{
+  color: var(--darkbasecolor) !important;
+  font-weight: 600 !important;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border: 2px solid var(--darkbasecolor) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.convertBtn:hover{
+  color: #ffffff !important;
+  background-color: var(--darkbasecolor) !important;
+}
+
+/* Footer */
+.footerLinks{
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  transform-origin: left;
+  --tw-text-opacity: 1;
+  color: white;
+  transition-duration: 150ms;
+}
+
+.footerLinks:hover {
+  --tw-text-opacity: 1;
+}
+
+.footerLinks::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 0;
+  height: 4px;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.footerLinks:hover::before{
+  width: 100%;
+  left: 0;
+}
+.footerlogo{
+  width: 28rem;
+}
+.footerlogo img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
