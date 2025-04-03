@@ -131,6 +131,18 @@
 }
 
 /* Footer */
+.footermain{
+  padding: 0rem 1.5rem;
+}
+.footerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  /* flex flex-wrap justify-between items-center gap-8 py-8 px-6 */
+}
 .footerLinks{
   position: relative;
   width: -moz-fit-content;
@@ -161,10 +173,11 @@
   left: 0;
 }
 .footerlogo{
-  width: 28rem;
+  max-width: 28rem;
 }
 .footerlogo img{
   height: 100%;
   width: 100%;
   object-fit: contain;
+  filter: invert(100%) brightness(1000%);
 }

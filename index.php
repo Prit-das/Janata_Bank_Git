@@ -175,7 +175,7 @@
               <label class="text-slate self-start">Your Currency</label>
               <div
                 class="w-full flex justify-between items-center gap-2 border-2 border-darkbasecolor shadow-lg rounded-lg mb-6 px-2">
-                <input type="text" placeholder="AED 100"
+                <input type="text" placeholder="AED 100" name="inAed"
                   class="w-1/2 bg-transparent text-darkbasecolor outline-none font-bold py-3">
                 <div class="flex items-center gap-2 select-none">
                   <img src="https://flagcdn.com/w320/ae.png" class="h-8 w-8 rounded-full">
@@ -188,7 +188,7 @@
               <label class="text-slate self-start">Converted in this Currency</label>
               <div
                 class="w-full flex justify-between items-center gap-2 border-2 border-darkbasecolor shadow-lg rounded-lg px-2">
-                <input type="text" placeholder="Taka 3300"
+                <input type="text" placeholder="Taka 3300" name="inTaka"
                   class="w-1/2 bg-transparent text-darkbasecolor outline-none font-bold py-3">
                 <div class="flex items-center select-none gap-2">
                   <img src="https://flagcdn.com/w320/bd.png" class="h-8 w-8 object-cover rounded-full">

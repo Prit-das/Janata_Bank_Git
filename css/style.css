@@ -637,10 +637,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -655,9 +651,6 @@ video {
 
 .flex {
   display: flex;
-}
-.flex-wrap{
-  flex-wrap: wrap;
 }
 
 .hidden {
@@ -840,11 +833,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -868,16 +856,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pt-\[50px\] {
@@ -915,11 +893,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -1132,6 +1105,20 @@ video {
 
 /* Footer */
 
+.footermain{
+  padding: 0rem 1.5rem;
+}
+
+.footerContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  /* flex flex-wrap justify-between items-center gap-8 py-8 px-6 */
+}
+
 .footerLinks{
   position: relative;
   width: -moz-fit-content;
@@ -1163,7 +1150,7 @@ video {
 }
 
 .footerlogo{
-  width: 28rem;
+  max-width: 28rem;
 }
 
 .footerlogo img{
@@ -1171,19 +1158,12 @@ video {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  filter: invert(100%) brightness(1000%);
 }
 
 @media (min-width: 768px) {
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .md\:inline {
     display: inline;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:max-w-md {
@@ -1259,19 +1239,14 @@ video {
     padding-right: 3rem;
   }
 
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 
-  .lg\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .lg\:py-20 {
