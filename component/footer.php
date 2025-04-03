@@ -1,5 +1,5 @@
-<footer class="container mx-auto flex flex-col gap-8 bg-basecolor lg:px-12">
-    <div class="flex flex-row justify-between items-center py-8">
+<footer class="bg-basecolor lg:px-12">
+    <div class="container mx-auto flex flex-wrap justify-between items-center gap-8 py-8 px-6">
         <!-- 1st item -->
         <div class="footerlogo"><img src="./assets/img/jb_logo_slogan.png"></div>
         <!-- 2nd item -->
@@ -33,8 +33,8 @@
             <a href="#" class="footerLinks font-semibold">Deposits</a>
         </div>
     </div>
-    <div class="flex justify-between items-center text-white font-bold py-4">
-        <a href="" class="">
+    <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center text-white font-bold py-4">
+        <a href="" class="text-center">
             Copyright © 2017-2025 | Privacy Policy | Janata Bank PLC, United Arab Emirates. | Visitors Updated:00315656
         </a>
         <a href="https://indomitechgroup.com/" target="_blank" class="">
