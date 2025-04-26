@@ -689,6 +689,14 @@ video {
   width: 100%;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
 .max-w-80 {
   max-width: 20rem;
 }
@@ -706,6 +714,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -730,6 +742,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-12 {
@@ -866,6 +882,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-poppins {
   font-family: poppins, sans-serif;
 }
@@ -885,9 +905,19 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -912,6 +942,10 @@ video {
   font-weight: 300;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -931,8 +965,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-60 {
   opacity: 0.6;
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .shadow-lg {
@@ -1103,6 +1147,18 @@ video {
   background-color: var(--darkbasecolor) !important;
 }
 
+/* About Cards */
+
+.aboutCards{
+  height: 20rem;
+  width: 18rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /* Footer */
 
 .footermain{
@@ -1113,10 +1169,9 @@ video {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   gap: 2rem;
   padding: 2rem 1.5rem;
-  /* flex flex-wrap justify-between items-center gap-8 py-8 px-6 */
+  margin-bottom: 1rem;
 }
 
 .footerLinks{
@@ -1126,6 +1181,7 @@ video {
   transform-origin: left;
   --tw-text-opacity: 1;
   color: white;
+  margin-bottom: 0.5rem;
   transition-duration: 150ms;
 }
 
@@ -1150,7 +1206,7 @@ video {
 }
 
 .footerlogo{
-  max-width: 28rem;
+  max-width: 22rem;
 }
 
 .footerlogo img{
@@ -1226,6 +1282,10 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {

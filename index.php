@@ -143,7 +143,7 @@
     </section>
     <!-- Services -->
     <section id="services" class="relative px-4">
-      <div class="container mx-auto px-4 lg:px-12 py-4">
+      <div class="container mx-auto lg:px-12 py-4">
         <!-- Heading -->
         <h4 class="hidden lg:block font-poppins font-bold text-center md:text-start text-6xl text-darkbasecolor">
           Remittance Calculator</h4>
@@ -200,6 +200,48 @@
         </div>
       </div>
     </section>
+    <!-- About Us -->
+    <section id="about" class="relative px-4">
+      <div class="container mx-auto flex flex-col items-center gap-10 font-poppins px-4 lg:px-12 py-8">
+        <div class="flex flex-col items-center text-center text-slate gap-5">
+          <p class="text-5xl font-semibold text-darkbasecolor">Why choose Janata Bank?</p>
+          <p class="text-3xl font-medium">Simpler, smarter, supportive banking.</p>
+          <p class="max-w-6xl text-xl text-center">We're one of the leading banks in the UAE, offering innovative and tailored banking services and solutions to individuals and businesses for over 50 years.</p>
+          <a href="#" class="underline text-lg text-darkbasecolor">Know more about us <i class="bi bi-arrow-right"></i> </a>
+        </div>
+        <div class="max-w-7xl flex flex-wrap justify-center lg:justify-between items-center gap-4 py-8">
+          <div class="aboutCards font-poppins shadow-2xl rounded-lg">
+            <div class="iconHeading">
+              <i class="text-3xl text-darkbasecolor fa-regular fa-handshake"></i>
+              <h4 class="font-semibold text-darkbasecolor">Trust</h4>
+            </div>
+            <p class="text-slate text-justify">With more than 50 years of experience and over AED 130 billion in assets, we've been trusted by thousands of clients to deliver dedicated financial solutions.</p>
+          </div>
+          <div class="aboutCards font-poppins shadow-2xl rounded-lg">
+            <div class="iconHeading">
+              <i class="text-3xl text-darkbasecolor bi bi-phone"></i>
+              <h4 class="font-semibold text-darkbasecolor">Technology</h4>
+            </div>
+            <p class="text-slate text-justify">We are an established UAE institution that's future-ready and focused on delivering cutting-edge solutions to support you on every step of your journey.</p>
+          </div>
+          <div class="aboutCards font-poppins shadow-2xl rounded-lg">
+            <div class="iconHeading">
+              <i class="text-3xl text-darkbasecolor bi bi-award"></i>
+              <h4 class="font-semibold text-darkbasecolor">Awards</h4>
+            </div>
+            <p class="text-slate text-justify">Janata lorem ipsum is proud to have been recognised throughout the years for outstanding services and products that enhance your experience with us.</p>
+          </div>
+          <div class="aboutCards font-poppins shadow-2xl rounded-lg">
+            <div class="iconHeading">
+              <i class="text-3xl text-darkbasecolor bi bi-bank"></i>
+              <h4 class="font-semibold text-darkbasecolor">Service Suite</h4>
+            </div>
+            <p class="text-slate text-justify">From personal banking, loans, insurance, investment products and digital products, Lorem ipsum dolor sit. we have the right solution to suit you and your goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Faq -->
     <!-- Footer -->
     <?php include './component/footer.php' ?>
   </section>

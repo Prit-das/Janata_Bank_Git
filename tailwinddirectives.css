@@ -129,7 +129,16 @@
   color: #ffffff !important;
   background-color: var(--darkbasecolor) !important;
 }
-
+/* About Cards */
+.aboutCards{
+  height: 20rem;
+  width: 18rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
 /* Footer */
 .footermain{
   padding: 0rem 1.5rem;
@@ -138,10 +147,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   gap: 2rem;
   padding: 2rem 1.5rem;
-  /* flex flex-wrap justify-between items-center gap-8 py-8 px-6 */
+  margin-bottom: 1rem;
 }
 .footerLinks{
   position: relative;
@@ -150,9 +158,9 @@
   transform-origin: left;
   --tw-text-opacity: 1;
   color: white;
+  margin-bottom: 0.5rem;
   transition-duration: 150ms;
 }
-
 .footerLinks:hover {
   --tw-text-opacity: 1;
 }
@@ -173,7 +181,7 @@
   left: 0;
 }
 .footerlogo{
-  max-width: 28rem;
+  max-width: 22rem;
 }
 .footerlogo img{
   height: 100%;
