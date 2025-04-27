@@ -706,6 +706,14 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -839,6 +847,10 @@ video {
      object-position: right;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -920,6 +932,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -948,6 +965,11 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.text-basecolor {
+  --tw-text-opacity: 1;
+  color: rgb(0 153 204 / var(--tw-text-opacity));
 }
 
 .text-darkbasecolor {
@@ -1159,6 +1181,23 @@ video {
   gap: 1rem;
 }
 
+/* FAQ */
+
+.rotate{
+  color: var(--darkbasecolor);
+  transform: rotate(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.group{
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  border-bottom: 1px solid slategray;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
 /* Footer */
 
 .footermain{
@@ -1228,6 +1267,10 @@ video {
 
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:px-12 {

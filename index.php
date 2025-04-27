@@ -1,5 +1,5 @@
 <?php include './component/head.php' ?>
-<script src="script.js" defer></script>
+<script src="script.js?v=<?php echo time();?>" defer></script>
 <title>Janata Bank</title>
 </head>
 
@@ -202,7 +202,7 @@
     </section>
     <!-- About Us -->
     <section id="about" class="relative px-4">
-      <div class="container mx-auto flex flex-col items-center gap-10 font-poppins px-4 lg:px-12 py-8">
+      <div class="container mx-auto flex flex-col items-center gap-10 font-poppins lg:px-12 py-8">
         <div class="flex flex-col items-center text-center text-slate gap-5">
           <p class="text-5xl font-semibold text-darkbasecolor">Why choose Janata Bank?</p>
           <p class="text-3xl font-medium">Simpler, smarter, supportive banking.</p>
@@ -242,6 +242,84 @@
       </div>
     </section>
     <!-- Faq -->
+    <section id="faq" class="relative px-4">
+      <div class="max-w-7xl container mx-auto font-poppins lg:px-12 py-8">
+        <!-- Accordian container -->
+        <div class="flex flex-col text-slate gap-4 p-4 mt-4" id="accordian-container">
+          <h4 class="text-3xl text-center md:text-start text-darkbasecolor font-bold mb-6">Frequently Asked Questions</h4>
+          <div id="" class="group">
+            <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">What type of services Janata Bank offers?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content py-4">
+              <p class="text-sm">Quick and convenient daily banking services.
+                International Trade services.
+                Instant remittance services.
+                Cheque Clearing, Intra balance transfer.
+                WPS, FTS, DDS and SWIFT.
+                Account Openning at Bangladesh.
+                Investment in Wage Earners Development and Dollar Bond (only for Bangladeshi expatriates).
+                Commercial and Labor Guarantee.
+              </p>
+            </div>
+          </div>
+          <div id="" class="group">
+            <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">Where do Janata Bank Located?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content flex flex-col md:flex-row gap-4 py-4">
+              <p class="text-sm">Abu Dhabi <a href="#" class="map text-basecolor font-semibold"> view on map</a>
+              <i class="bi bi-geo-fill text-basecolor"></i></p>
+              <p class="text-sm">Dubai <a href="#" class="map text-basecolor font-semibold"> view on map</a>
+              <i class="bi bi-geo-fill text-basecolor"></i></p>
+              <p class="text-sm">Sharjah <a href="#" class="map text-basecolor font-semibold"> view on map</a>
+              <i class="bi bi-geo-fill text-basecolor"></i></p>
+              <p class="text-sm">Al Ain <a href="#" class="map text-basecolor font-semibold"> view on map</a>
+              <i class="bi bi-geo-fill text-basecolor"></i></p>
+            </div>
+          </div>
+          <div id="" class="group">
+            <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">How can I open a Business Account?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content py-4">
+              <p class="text-sm">Visit any nearest Janata Bank Branch with this details <a href="" class="underline text-darkbasecolor">click here</a></p>
+            </div>
+          </div>
+          <div id="" class="group">
+            <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">How can I open a Individual Current Account?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content py-4">
+              <p class="text-sm">Visit any nearest Janata Bank Branch with this details <a href="" class="underline text-darkbasecolor">click here</a></p>
+            </div>
+          </div>
+          <div id="" class="group">
+            <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">How can I open a Savings Account?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content py-4">
+              <p class="text-sm">Visit any nearest Janata Bank Branch with this details <a href="" class="underline text-darkbasecolor">click here</a></p>
+            </div>
+          </div>
+          <div id="" class="group">
+           <div id="groupHead" class="flex item-center justify-between cursor-pointer gap-4">
+              <h4 class="text-md font-medium">How can I purchase Wage Earner Development Bond and Dollar Bond?</h4>
+              <i class="bi bi-arrow-bar-down"></i>
+            </div>
+            <div class="content py-4">
+              <p class="text-sm">Call Customer Care for a complete guide.    <i class="bi bi-telephone-outbound-fill font-bold text-basecolor">  600587008</i></br>
+                Visit any nearest Janata Bank Branches for investment. <span class="font-bold text-darkbasecolor">[This facility restricted only for Bangladeshi Expatriates]</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <?php include './component/footer.php' ?>
   </section>
